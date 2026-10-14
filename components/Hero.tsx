@@ -31,7 +31,6 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="hgrid">
         <div>
-          <span className="ping"><i />Open to full-stack roles</span>
           <h1>Rashid Abu&nbsp;Elsheikh</h1>
           <p className="claim">I build web applications, and I know how they get broken into.</p>
           <p className="hbody lede">

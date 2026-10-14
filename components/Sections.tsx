@@ -183,9 +183,6 @@ export function Contact() {
   return (
     <section id="contact">
       <div className="shead"><h2>Contact</h2><span className="tick">reach me</span></div>
-      <p className="lede" style={{ fontSize: "clamp(1.1rem,2.4vw,1.4rem)", color: "var(--ink)", fontWeight: 500, letterSpacing: "-.02em", maxWidth: "30ch", lineHeight: 1.35 }}>
-        Looking for full-stack work. The harder the correctness requirements, the more interested I am.
-      </p>
       <div className="clinks">
         <a className="clink" href={`mailto:${profile.email}`}><span className="l">email</span><span className="v">{profile.email}</span></a>
         <a className="clink" href={profile.github} target="_blank" rel="noreferrer"><span className="l">github</span><span className="v">{profile.githubHandle}</span></a>
