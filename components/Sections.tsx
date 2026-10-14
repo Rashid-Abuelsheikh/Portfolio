@@ -191,10 +191,6 @@ export function Contact() {
         <a className="clink" href={profile.github} target="_blank" rel="noreferrer"><span className="l">github</span><span className="v">{profile.githubHandle}</span></a>
         <a className="clink" href={profile.linkedin} target="_blank" rel="noreferrer"><span className="l">linkedin</span><span className="v">{profile.linkedinHandle}</span></a>
       </div>
-      <footer>
-        <span>Amman, Jordan</span>
-        <span>Built with Next.js &amp; Tailwind CSS</span>
-      </footer>
     </section>
   );
 }
